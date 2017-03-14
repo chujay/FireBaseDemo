@@ -7,11 +7,12 @@
 //
 
 import UIKit
+import Firebase
 
 class CreateArticleViewController: UIViewController {
 
     static let identifier = "CreateArticleViewController"
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }
