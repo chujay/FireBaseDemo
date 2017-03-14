@@ -37,6 +37,8 @@ class HomeViewController: UIViewController {
     }
     
     @IBAction func addArticle () {
-        
+        let storyboard = UIStoryboard.init(name: "Artical", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: CreateArticleViewController.identifier)
+        self.present(controller, animated: true, completion: nil)
     }
 }
