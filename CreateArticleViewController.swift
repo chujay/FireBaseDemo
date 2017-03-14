@@ -19,4 +19,12 @@ class CreateArticleViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+    
+    @IBAction func cancel() {
+        dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func createNewArticle() {
+        print("Print new article")
+    }
 }
