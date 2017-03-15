@@ -13,8 +13,20 @@ class CreateArticleViewController: UIViewController {
 
     static let identifier = "CreateArticleViewController"
 
+    var ref: FIRDatabaseReference!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        ref = FIRDatabase.database().reference()
+        
+        let user1 = User(name: "Luke", id: 1)
+        self.ref.setValue(["username": user1.name])
+        
+        self.ref.observe(FIRDataEventType.value, with: { snap in
+            print(snap.value)
+        })
+        
+        self.ref.updateChildValues(["username": "Hi"])
     }
 
     override func didReceiveMemoryWarning() {

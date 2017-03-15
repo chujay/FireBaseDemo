@@ -270,6 +270,22 @@
                                     <action selector="addArticle" destination="hxY-Ju-URQ" eventType="touchUpInside" id="0Ka-eI-yNM"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6pd-n7-Bkt">
+                                <rect key="frame" x="108" y="415" width="159" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Edit Profile"/>
+                                <connections>
+                                    <action selector="editProfile" destination="hxY-Ju-URQ" eventType="touchUpInside" id="FRx-Q9-FNt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="msU-m6-inn">
+                                <rect key="frame" x="108" y="237" width="159" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="View Article"/>
+                                <connections>
+                                    <action selector="viewArticle" destination="hxY-Ju-URQ" eventType="touchUpInside" id="hCx-Za-Fsh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
