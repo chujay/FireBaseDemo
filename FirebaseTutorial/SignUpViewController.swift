@@ -14,7 +14,6 @@ class SignUpViewController: UIViewController {
     //Outlets
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
-    
     //Sign Up Action for email
     @IBAction func createAccountAction(_ sender: AnyObject) {
         if emailTextField.text == "" {
@@ -31,6 +30,10 @@ class SignUpViewController: UIViewController {
                 if error == nil {
                     print("You have successfully signed up")
                     //Goes to the Setup page which lets the user take a photo for their profile picture and also chose a username
+                    let userRef = FIRDatabase.database().reference(withPath: "Users")
+                    let user: User1 = User1(authData: user!)
+                    let currentUser = userRef.child(user.uid)
+                    currentUser.setValue(user.email)
                     
                     let vc = self.storyboard?.instantiateViewController(withIdentifier: "Home")
                     self.present(vc!, animated: true, completion: nil)

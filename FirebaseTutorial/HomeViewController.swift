@@ -43,7 +43,9 @@ class HomeViewController: UIViewController {
     }
     
     @IBAction func editProfile() {
-        print("Edit Profile")
+        let storyboard = UIStoryboard.init(name: "ProfileStoryboard", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: CreateProfileViewController.identifier)
+        self.present(controller, animated: true, completion: nil)
     }
     
     @IBAction func viewArticle() {

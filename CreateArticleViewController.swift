@@ -17,22 +17,17 @@ class CreateArticleViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        ref = FIRDatabase.database().reference()
-        
-        let user1 = User(name: "Luke", id: 1)
-        self.ref.setValue(["username": user1.name])
-        
-        self.ref.observe(FIRDataEventType.value, with: { snap in
-            print(snap.value)
-        })
-        
-        self.ref.updateChildValues(["username": "Hi"])
+//        ref = FIRDatabase.database().reference(withPath: "User-item")
+//        let user: User = User(email: <#T##String#>, firstName: <#T##String?#>, lastName: <#T##String?#>)
+//        self.ref.setValue(["username": user1.name])
+//        
+//        self.ref.observe(FIRDataEventType.value, with: { snap in
+//            print(snap.value)
+//        })
+//        
+//        self.ref.updateChildValues(["username": "Hi"])
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
-    
     @IBAction func cancel() {
         dismiss(animated: true, completion: nil)
     }

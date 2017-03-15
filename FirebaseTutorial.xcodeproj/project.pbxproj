@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06E036D41E78F956008B767A /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E036D31E78F956008B767A /* CreateProfileViewController.swift */; };
+		06E036D61E78F97C008B767A /* ProfileStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06E036D51E78F97C008B767A /* ProfileStoryboard.storyboard */; };
+		06E036D81E790B14008B767A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 06E036D71E790B14008B767A /* GoogleService-Info.plist */; };
+		06E036DA1E791D0C008B767A /* UserItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E036D91E791D0C008B767A /* UserItems.swift */; };
+		06E036DC1E791D2A008B767A /* User1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E036DB1E791D2A008B767A /* User1.swift */; };
 		761E63D98329105941727A86 /* Pods_FirebaseTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A81D55BDE7B38A8A3C0EEA /* Pods_FirebaseTutorial.framework */; };
 		A028885A1E77E019007985BD /* Artical.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02888591E77E019007985BD /* Artical.storyboard */; };
 		A028885D1E77E04E007985BD /* CreateArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A028885C1E77E04E007985BD /* CreateArticleViewController.swift */; };
 		A08A3AA11E78D19C002751FE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08A3AA01E78D19C002751FE /* User.swift */; };
 		A08A3AA31E78E1D2002751FE /* FireBaseSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08A3AA21E78E1D2002751FE /* FireBaseSupport.swift */; };
-		A0A270531E77D2D800A85930 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0A270521E77D2D800A85930 /* GoogleService-Info.plist */; };
 		F4443AE01DF2DFDA00800C92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4443ADF1DF2DFDA00800C92 /* AppDelegate.swift */; };
 		F4443AE51DF2DFDA00800C92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4443AE31DF2DFDA00800C92 /* Main.storyboard */; };
 		F4443AE71DF2DFDA00800C92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4443AE61DF2DFDA00800C92 /* Assets.xcassets */; };
@@ -24,13 +28,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06E036D31E78F956008B767A /* CreateProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
+		06E036D51E78F97C008B767A /* ProfileStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProfileStoryboard.storyboard; sourceTree = "<group>"; };
+		06E036D71E790B14008B767A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		06E036D91E791D0C008B767A /* UserItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserItems.swift; sourceTree = "<group>"; };
+		06E036DB1E791D2A008B767A /* User1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User1.swift; sourceTree = "<group>"; };
 		4BD63AB688434E54EF9D2ACF /* Pods-FirebaseTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseTutorial/Pods-FirebaseTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		69A81D55BDE7B38A8A3C0EEA /* Pods_FirebaseTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A02888591E77E019007985BD /* Artical.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Artical.storyboard; sourceTree = "<group>"; };
 		A028885C1E77E04E007985BD /* CreateArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateArticleViewController.swift; sourceTree = "<group>"; };
 		A08A3AA01E78D19C002751FE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A08A3AA21E78E1D2002751FE /* FireBaseSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireBaseSupport.swift; sourceTree = "<group>"; };
-		A0A270521E77D2D800A85930 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A32E63770E5F3D6E8603396D /* Pods-FirebaseTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseTutorial/Pods-FirebaseTutorial.release.xcconfig"; sourceTree = "<group>"; };
 		F4443ADC1DF2DFDA00800C92 /* FirebaseTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4443ADF1DF2DFDA00800C92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				A02888591E77E019007985BD /* Artical.storyboard */,
+				06E036D51E78F97C008B767A /* ProfileStoryboard.storyboard */,
 			);
 			name = StoryBoard;
 			sourceTree = "<group>";
@@ -85,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				A028885C1E77E04E007985BD /* CreateArticleViewController.swift */,
+				06E036D31E78F956008B767A /* CreateProfileViewController.swift */,
 			);
 			name = Artical;
 			sourceTree = "<group>";
@@ -94,6 +104,8 @@
 			children = (
 				A08A3AA01E78D19C002751FE /* User.swift */,
 				A08A3AA21E78E1D2002751FE /* FireBaseSupport.swift */,
+				06E036D91E791D0C008B767A /* UserItems.swift */,
+				06E036DB1E791D2A008B767A /* User1.swift */,
 			);
 			name = UserData;
 			sourceTree = "<group>";
@@ -122,7 +134,7 @@
 		F4443ADE1DF2DFDA00800C92 /* FirebaseTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				A0A270521E77D2D800A85930 /* GoogleService-Info.plist */,
+				06E036D71E790B14008B767A /* GoogleService-Info.plist */,
 				F4443AF11DF2E34F00800C92 /* SignUpViewController.swift */,
 				F4443AF21DF2E34F00800C92 /* HomeViewController.swift */,
 				F4443AF31DF2E34F00800C92 /* LoginViewController.swift */,
@@ -171,7 +183,7 @@
 				TargetAttributes = {
 					F4443ADB1DF2DFDA00800C92 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 93DCX8AMC8;
+						DevelopmentTeam = FWFTD7X83H;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -200,10 +212,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4443AEA1DF2DFDA00800C92 /* LaunchScreen.storyboard in Resources */,
-				A0A270531E77D2D800A85930 /* GoogleService-Info.plist in Resources */,
 				A028885A1E77E019007985BD /* Artical.storyboard in Resources */,
+				06E036D61E78F97C008B767A /* ProfileStoryboard.storyboard in Resources */,
 				F4443AE71DF2DFDA00800C92 /* Assets.xcassets in Resources */,
 				F4443AE51DF2DFDA00800C92 /* Main.storyboard in Resources */,
+				06E036D81E790B14008B767A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,12 +276,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A028885D1E77E04E007985BD /* CreateArticleViewController.swift in Sources */,
+				06E036D41E78F956008B767A /* CreateProfileViewController.swift in Sources */,
 				F4443AF71DF2E34F00800C92 /* LoginViewController.swift in Sources */,
+				06E036DA1E791D0C008B767A /* UserItems.swift in Sources */,
 				F4443AF51DF2E34F00800C92 /* SignUpViewController.swift in Sources */,
 				F4443AF81DF2E34F00800C92 /* ResetPasswordViewController.swift in Sources */,
 				F4443AE01DF2DFDA00800C92 /* AppDelegate.swift in Sources */,
 				F4443AF61DF2E34F00800C92 /* HomeViewController.swift in Sources */,
 				A08A3AA31E78E1D2002751FE /* FireBaseSupport.swift in Sources */,
+				06E036DC1E791D2A008B767A /* User1.swift in Sources */,
 				A08A3AA11E78D19C002751FE /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,10 +409,10 @@
 			baseConfigurationReference = 4BD63AB688434E54EF9D2ACF /* Pods-FirebaseTutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 93DCX8AMC8;
+				DEVELOPMENT_TEAM = FWFTD7X83H;
 				INFOPLIST_FILE = FirebaseTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lucasWu.FirebaseTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chujay.FirebaseTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -407,10 +423,10 @@
 			baseConfigurationReference = A32E63770E5F3D6E8603396D /* Pods-FirebaseTutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 93DCX8AMC8;
+				DEVELOPMENT_TEAM = FWFTD7X83H;
 				INFOPLIST_FILE = FirebaseTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lucasWu.FirebaseTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chujay.FirebaseTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
